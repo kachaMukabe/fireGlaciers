@@ -1,12 +1,9 @@
 import React from 'react';
-import Hello from './Hello.jsx';
-import Info from './Info.jsx';
+import {Forecast} from "./mosquitoForecast";
 
 const App = () => (
   <div>
-    <h1>Welcome to Meteor!</h1>
-    <Hello />
-    <Info />
+    <Forecast />
   </div>
 );
 
