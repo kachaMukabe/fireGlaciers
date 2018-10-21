@@ -1,3 +1,5 @@
+import 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'
+
 function BrowserDetection() {
     if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
         var e = new Number(RegExp.$1);
