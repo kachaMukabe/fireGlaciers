@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 
-export class Forecast extends Component {
+
+export class HomepageHead extends Component {
+constructor(){
+    super()
+
+}
 
 
     render() {
         return (
-            <div>
-                {/* {this.showPosition} */}
+            <div id="homePageHead">
+                <canvas id="pixie"></canvas>
+                <div class="container"></div>
             </div>
         )
     }

@@ -23,7 +23,7 @@ export class Forecast extends Component {
     render() {
         return (
             <div>
-                {/* {this.showPosition} */}
+                {this.showPosition}
             </div>
         )
     }
