@@ -14,7 +14,8 @@
     "node-sass-loader": "^0.1.7",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "react-svg-gauge": "^1.0.10"
+    "react-svg-gauge": "^1.0.10",
+    "react-bootstrap": "^0.32.4"
   },
   "meteor": {
     "mainModule": {

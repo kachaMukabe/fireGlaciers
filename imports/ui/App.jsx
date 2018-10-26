@@ -1,20 +1,23 @@
-import React from 'react';
-import {Forecast} from "./mosquitoForecast";
+import React, { Component } from "react";
+import Forecast from "./weather_forecast";
 import { MosquitoGauge } from "./MosquitoGauage";
+import { HomepageHead } from "./_homepageHead.jsx";
 import { AboutCards } from "./_aboutCards.jsx";
 import { SearchInput } from "./_searchInput.jsx";
-import { Graphs } from "./mosquito_Graphs.jsx";
-import { NavigationBar } from "./navigation_bar.jsx";
 import "../../client/index.scss";
 
-const App = () => (
-  <div>
-    <Forecast />
-    <MosquitoGauge/>
-    <AboutCards />
-    <SearchInput />
-    <Graphs />
-  </div>
-);
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Forecast />
+        <MosquitoGauge/>
+        <HomepageHead />
+        <AboutCards />
+        <SearchInput />
+      </div>
+    );
+  }
+}
 
 export default App;
