@@ -13,7 +13,7 @@ export class AboutCards extends Component {
             <div id="aboutSection">
                 <div class="aboutCard card bg-light">
                     <div class="card-body text-center">
-                        <p class="card-text">Some text inside the fifth card</p>
+                        <p class="card-text">Global warming and </p>
                     </div>
                 </div>
                 <div class=" aboutCard card bg-light">
