@@ -25,5 +25,30 @@ justify-content: space-around
 }
 
 /* gauage code */
+.square1 {
+    width: 40px;
+    border: 2px solid green;
+    padding-bottom: 20px;
+    background: green;
+    
+}
 
+.square2 {
+     width: 40px;
+     border: 2px solid yellow;
+     padding-bottom: 20px;
+     background: yellow;
+     
+}
 
+.square3 {
+     width: 40px;
+     border: 2px solid red;
+     padding-bottom: 20px;
+     background: red;
+     
+}
+.simple-hr{
+  display: flex;
+
+}
