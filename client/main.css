@@ -21,7 +21,7 @@ body {
   /* align-items: center; */
   justify-content: space-around;
   height: 100vh;
-  background-image: url("/imagebg.png");
+  background-image: url("/images/imagebg.png");
 }
 
 .city-and-desc {
