@@ -4,7 +4,7 @@ import Gauge from "react-svg-gauge";
 export default class Gaug extends Component {
                  constructor(props) {
                    super(props);
-                    value : true
+                    value : 50
                  }
 
                  render() {
