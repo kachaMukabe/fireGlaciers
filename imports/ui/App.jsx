@@ -5,17 +5,22 @@ import { HomepageHead } from "./_homepageHead.jsx";
 import { About } from "./aboutPage";
 import { SearchInput } from "./_searchInput.jsx";
 import "../../client/index.scss";
-import { Footer } from "./footer.jsx"; 
+import MainHeader from "./header";
+import { Footer } from "./footer.jsx";
 
 class App extends Component {
   render() {
-    return <div id="AppJs">
-        <Forecast />
+    return (
+      <div id="AppJs">
+        <div>
+          <MainHeader />
+          <Forecast />
+        </div>
         <MosquitoGauge />
-        <HomepageHead />
-        <About />
+         <About />
         <Footer />
-      </div>;
+      </div>
+    );
   }
 }
 
