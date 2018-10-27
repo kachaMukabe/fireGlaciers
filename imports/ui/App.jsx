@@ -7,6 +7,7 @@ import { SearchInput } from "./_searchInput.jsx";
 import "../../client/index.scss";
 import MainHeader from "./header";
 import { Footer } from "./footer.jsx";
+import { MapView } from "./map_view";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Forecast />
         </div>
         <MosquitoGauge />
+        <MapView />
          <About />
         <Footer />
       </div>
