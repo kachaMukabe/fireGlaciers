@@ -11,6 +11,34 @@ body {
   src: url("/fonts/HelveticaNeueThin.ttf");
 }
 
+@font-face {
+  font-family: CopperplateLight;
+  src: url("/fonts/CopperplateLight.ttf");
+}
+
+/* header styles */
+
+.header {
+  font-family: CopperplateLight;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  width: 100%;
+  height: 80px;
+}
+.hd-txt {
+  text-align: center;
+  flex-grow: 2;
+  height: 80px;
+  padding-top: 25px;
+  font-size: 35px;
+}
+.hmb-menu {
+  height: 30px;
+  width: 30px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
 /* weather forecast */
 
 .weather-display {
@@ -101,34 +129,30 @@ body {
   background-color: #f8f9fa !important;
   height: 200px;
   width: 300px;
-  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.06)
+  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.06);
 }
 
 /* gauage code */
 .square1 {
-    width: 40px;
-    border: 2px solid green;
-    padding-bottom: 20px;
-    background: green;
-    
+  width: 40px;
+  border: 2px solid green;
+  padding-bottom: 20px;
+  background: green;
 }
 
 .square2 {
-     width: 40px;
-     border: 2px solid yellow;
-     padding-bottom: 20px;
-     background: yellow;
-     
+  width: 40px;
+  border: 2px solid yellow;
+  padding-bottom: 20px;
+  background: yellow;
 }
 
 .square3 {
-     width: 40px;
-     border: 2px solid red;
-     padding-bottom: 20px;
-     background: red;
-     
+  width: 40px;
+  border: 2px solid red;
+  padding-bottom: 20px;
+  background: red;
 }
-.simple-hr{
+.simple-hr {
   display: flex;
-
 }
