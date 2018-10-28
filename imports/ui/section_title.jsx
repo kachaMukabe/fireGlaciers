@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class ComponentHeading extends Component {
+export class SectionTitle extends Component {
   constructor() {
     super();
   }
