@@ -17,17 +17,12 @@ export class Footer extends Component {
                   <ul class="list-unstyled">
                     <li className="ProjectsItem">
                       <a className="footer-links" href="#">
-                        Payment Center
+                       MosquitoCast
                       </a>
                     </li>
                     <li className="ProjectsItem">
                       <a className="footer-links" href="#">
-                        Contact Directory
-                      </a>
-                    </li>
-                    <li className="ProjectsItem">
-                      <a className="footer-links" href="#">
-                        Forms
+                       GitHub
                       </a>
                     </li>
                   </ul>
