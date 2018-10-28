@@ -33,12 +33,12 @@ class Forecast extends Component {
       proxyUrl + "https://parasitesapi.herokuapp.com/api/v2/forecast/Lusaka"
     );
     const response = await api_call.json();
-    console.log(response);
+    // console.log(response);
     response.list.map(tmpObj => {
       const momentday = moment.unix(tmpObj.dt);
       const apiHour = new Date().getHours();
       const hour = new Date().getHours();
-      console.log(momentday.day());
+      // console.log(momentday.day());
 
       switch (momentday.day()) {
         case 0:
@@ -49,7 +49,7 @@ class Forecast extends Component {
           }
           break;
         case 1:
-          console.log("tuesday");
+          // console.log("tuesday");
           if (hour === apiHour) {
             this.setState(prevState => ({
               weekForecast: { ...prevState.weekForecast, mon: tmpObj.main.temp }
@@ -116,7 +116,7 @@ class Forecast extends Component {
     });
   };
   render() {
-    console.log(this.state.weekForecast);
+    // console.log(this.state.weekForecast);
     return (
       <div>
         {/* <img className="bg-image" src={"/imagebg.png"} alt="bg-image" /> */}

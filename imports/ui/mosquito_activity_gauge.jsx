@@ -7,34 +7,34 @@ export class MosquitoActivityGauge extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      temperature: undefined
+      temperature: ""
     };
   }
   componentWillMount() {
     this.changeLevel();
-    gauge();
+    // gauge();
   }
 
   changeLevel = async () => {
+    const self = this;
     var proxyUrl = "https://cors-anywhere.herokuapp.com/";
     const api_call = await fetch(
       proxyUrl + "https://parasitesapi.herokuapp.com/api/v2/forecast/Lusaka"
     );
     var response = await api_call.json();
-    Tracker.autorun(() => {
-      this.setState({
-        temperature: response.list[0].main.temp
-      });
+    self.setState({
+      temperature: response.list[0].main.temp //* 3 you can uncomment this to multiply temp so you can see other values in gauge
     });
   };
 
   render() {
+    gauge(this.state.temperature);
     return (
       <div id="MosquitoGauge">
         <div class="container">
           <div
             class="progress-pie-chart"
-            data-percent={`${this.state.temperature}`}
+            data-percent={`${this.state.temperature}`} //we dont need this now confrim and remove
           >
             <div class="ppc-progress">
               <div class="ppc-progress-fill" />
