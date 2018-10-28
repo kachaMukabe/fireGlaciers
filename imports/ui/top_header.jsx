@@ -5,7 +5,7 @@ class MainHeader extends Component {
     return (
       <div>
         <div className="header ">
-          <h3 className="hd-txt ">Mosquito Forecast</h3>
+          <h3 className="hd-txt ">MosquitoCast</h3>
           <img
             onClick={() => {
               alert("menu coming sooner before sunday midnight kwati");
