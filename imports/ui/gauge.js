@@ -2,19 +2,19 @@ export default (gauge = tmp => {
   $(function() {
     var status = "Normal";
     var $ppc = $(".progress-pie-chart"),
-      percent = tmp, 
+      percent = tmp,
       deg = (360 * percent) / 100;
 
     console.log("number : " + $ppc.data("percent"));
-    if (percent > 19) {
+    if (percent > 19 || percent > 26) {
       $ppc.addClass("gt-50");
       status = "Medium";
     }
-    if (percent > 28) {
+    if (percent > 22) {
       $ppc.addClass("fun");
       status = "High";
     }
-    if (percent < 19){
+    if (percent < 19 || percent > 32){
       $ppc;
       status = "Normal"
     }
