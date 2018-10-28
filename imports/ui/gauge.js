@@ -6,7 +6,7 @@ export default (gauge = tmp => {
       deg = (360 * percent) / 100;
 
     console.log("number : " + $ppc.data("percent"));
-    if (percent > 19 || percent > 26) {
+    if ((percent > 19 && percent < 22) || percent > 26) {
       $ppc.addClass("gt-50");
       status = "Medium";
     }
