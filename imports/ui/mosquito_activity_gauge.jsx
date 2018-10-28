@@ -34,7 +34,6 @@ export class MosquitoActivityGauge extends Component {
         <div class="container">
           <div
             class="progress-pie-chart"
-            data-percent={`${this.state.temperature}`} //we dont need this now confrim and remove
           >
             <div class="ppc-progress">
               <div class="ppc-progress-fill" />
