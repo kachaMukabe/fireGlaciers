@@ -31,9 +31,9 @@ export class MapView extends Component {
 
     _showPosition = (position) => {
         newCenter = {
-            lat: position.coords.latitude, 
-            lng: position.coords.longitude 
-        } 
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+        }
         // alert(newCenter);
         // alert(position.coords.latitude);
         // alert( position.coords.longitude);
@@ -42,15 +42,15 @@ export class MapView extends Component {
     render() {
         this._getLocation();
         return (
-            <div style ={{ height: '400px', width: '100%'}}>
+            <div style ={{ height: '400px', width: '100%', marginTop: 60}}>
                 <GoogleMapReact
-                    bootstrapURLKeys={{ 
+                    bootstrapURLKeys={{
                         key: 'AIzaSyB6ZEEskxcCC2TCNttrxOhuxlc6PjwQvAE',
                         language: 'en'}}
                     defaultCenter={this.props.center}
                     defaultZoom={this.props.zoom}
                 >
-    
+
                 </GoogleMapReact>
             </div>
         );
@@ -58,4 +58,3 @@ export class MapView extends Component {
 }
 
 //export default MapView;
-
