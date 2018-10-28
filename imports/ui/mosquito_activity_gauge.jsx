@@ -12,7 +12,6 @@ export class MosquitoActivityGauge extends Component {
   }
   componentWillMount() {
     this.changeLevel();
-    // gauge();
   }
 
   changeLevel = async () => {
@@ -23,7 +22,7 @@ export class MosquitoActivityGauge extends Component {
     );
     var response = await api_call.json();
     self.setState({
-      temperature: response.list[0].main.temp //* 3 you can uncomment this to multiply temp so you can see other values in gauge
+      temperature: response.list[0].main.temp
     });
   };
 
