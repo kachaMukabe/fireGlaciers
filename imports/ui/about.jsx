@@ -9,16 +9,10 @@ export class About extends Component {
     return (
       <div className="row" id="aboutSection">
         <p align="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          alias placeat, corporis rem blanditiis quibusdam! Dolorem soluta
-          temporibus, cumque similique necessitatibus fuga explicabo maiores,
-          distinctio rem quo tempora ipsum nemo.
+          The idea behind mosquitoCast is to be able to predict or forsee how not just moquitos but also other organism in the environment would respond to change in environmental conditions due change in weather conditions.because of this we can not only predict moquito activity but also the activiy other biological vectors.by monitoring activty of a certain  biological vector ,depending on the area, population and the weather pattern can calculate the  probability of an outbreak. 
         </p>
         <p align="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique
-          veritatis, quia hic iste fugiat consequuntur beatae est eum distinctio
-          soluta nihil maxime adipisci eligendi, assumenda necessitatibus natus
-          laborum dolores!
+          
         </p>
         <p align="center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
