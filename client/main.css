@@ -151,6 +151,17 @@ body {
 }
 .simple-hr {
   display: flex;
+  justify-content: center;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  margin: 15px;
+}
+.current-m-Activity{
+  justify-content: center;
+  margin: 15px;
+  margin-top: 30px;
 }
 /* footer  */
 #copyRight{

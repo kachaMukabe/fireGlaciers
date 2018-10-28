@@ -23,13 +23,14 @@ Gauge()
                   </div>
                 </div>
               </div>
+           <div className="current-m-Activity row">
+            <p style={{fontSize:20 + 'px'}}>Current Mosquito activity in your area</p>
+            </div>
+              
               <div class="simple-hr">
-                <p>Normal</p>
-                <hr class="square1"/>
-                <p>Meduim</p>
-                <hr class="square2"/>
-                <p>High</p>
-                <hr class="square3"/>
+            <ul className="list-unstyled"><li><p style={{fontWeight:"bold"}}>Normal</p></li><li><hr class="square1"/></li></ul>
+            <ul className="list-unstyled"><li><p style={{fontWeight:"bold"}}>Meduim</p></li><li> <hr class="square2"/></li></ul>   
+            <ul className="list-unstyled"><li><p style={{fontWeight:"bold"}}>High</p></li><li><hr class="square3"/></li></ul> 
             </div>
             </div>
           </div>;
