@@ -4,7 +4,7 @@ $(function () {
     var $ppc = $('.progress-pie-chart'),
         percent = parseInt($ppc.data('percent')),
         deg = 360 * percent / 100;
-    if (percent > 0) {
+    if (percent > 49) {
         $ppc.addClass('gt-50');
         status = "Medium"
     }
