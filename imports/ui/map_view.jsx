@@ -42,7 +42,7 @@ export class MapView extends Component {
     render() {
         this._getLocation();
         return (
-            <div style ={{ height: '400px', width: '100%', marginTop: 60}}>
+            <div style ={{ height: '400px', width: '100%'}}>
                 <GoogleMapReact
                     bootstrapURLKeys={{
                         key: 'AIzaSyB6ZEEskxcCC2TCNttrxOhuxlc6PjwQvAE',
