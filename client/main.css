@@ -116,7 +116,7 @@ body {
   justify-content: center;
   background: #ecf4f5;
   color: #2c5e67;
-  padding: 25px;
+  padding: 45px;
 }
 /* about section */
 #aboutSection {
@@ -154,6 +154,7 @@ body {
   padding-left: 0;
   list-style: none;
   margin: 15px;
+  margin-left: 0;
 }
 .current-m-Activity{
   justify-content: center;
