@@ -1,4 +1,4 @@
-export default Gauge=()=>{
+export default gauge=()=>{
 $(function () {
     var status = "Normal"
     var $ppc = $('.progress-pie-chart'),
