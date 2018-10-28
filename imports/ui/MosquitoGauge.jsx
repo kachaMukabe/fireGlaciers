@@ -7,7 +7,7 @@ export class MosquitoGauge extends Component {
 constructor(props){
   super(props);
 	this.state = {
-		temperature: 20
+		temperature: undefined
 	}
 }
 	componentWillMount(){
